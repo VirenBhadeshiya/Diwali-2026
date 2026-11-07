@@ -1,0 +1,22 @@
+================================================================================
+DIWALI FIREWORKS VIDEO UPLOAD LOCATION
+================================================================================
+
+Drop your Diwali fireworks video directly into this folder:
+C:\Users\viren\.gemini\antigravity\scratch\diwali-nandita\assets\
+
+Recommended Filename:
+  fireworks.mp4  (or fireworks.webm / fireworks.mov)
+
+Specifications:
+- Format: MP4 (H.264 / H.265), WEBM, or MOV
+- Resolution: 1080p Full HD or 4K Ultra HD supported
+- Aspect Ratio: Both vertical (9:16 portrait recorded on smartphone) and 
+  cinematic landscape (16:9 / 21:9) are natively supported!
+- Audio: If your video contains firework sounds, it will play smoothly when 
+  the sound button or "Experience The Celebration" button is tapped.
+
+The website player automatically detects the file and displays it at full resolution
+with hardware-accelerated playback and cinematic blur transitions.
+================================================================================
+

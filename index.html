@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- Private Page Directives: Strict No-Index for Personal Sharing -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+  <meta name="googlebot" content="noindex, nofollow">
+
+  <!-- Personalized Title & Sharing Meta -->
+  <title>Happy Diwali 2026 • Nandita Jayswal ✨</title>
+  <meta name="description" content="A cinematic Diwali greeting and celebration for Nandita Jayswal. May this festival of lights illuminate your life with joy and prosperity.">
+  
+  <!-- Open Graph for WhatsApp, iMessage, Telegram Previews -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Happy Diwali 2026 • Nandita Jayswal ✨">
+  <meta property="og:description" content="A cinematic celebration of light, friendship, and festive warmth. Tap to open your Diwali greeting.">
+  <meta property="og:image" content="assets/og-preview.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="assets/og-preview.svg">
+  <meta name="twitter:title" content="Happy Diwali 2026 • Nandita Jayswal ✨">
+  <meta name="twitter:description" content="A cinematic celebration of light, friendship, and festive warmth.">
+  <meta name="theme-color" content="#060408">
+
+  <!-- Premium Typography: Cormorant Garamond, Cinzel Decorative, Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="is-locked">
+
+  <!-- BACKGROUND VIDEO & AMBIENT CANVAS LAYER -->
+  <div class="cinematic-stage" id="stage">
+    <!-- User's Fireworks Video (Primary Visual Hero Background) -->
+    <video 
+      id="fireworks-video" 
+      class="fireworks-video" 
+      playsinline 
+      webkit-playsinline 
+      muted 
+      loop 
+      preload="auto">
+      <source src="assets/fireworks.mp4" type="video/mp4">
+      <source src="assets/fireworks.webm" type="video/webm">
+      <source src="assets/fireworks.mov" type="video/quicktime">
+    </video>
+
+    <!-- Fallback / Supplementary Procedural Fireworks & Golden Stardust Canvas -->
+    <canvas id="fireworks-canvas" class="fireworks-canvas"></canvas>
+
+    <!-- Cinematic Vignette & Color Grading Overlays -->
+    <div class="cinematic-overlay" id="cinematic-overlay"></div>
+    <div class="gold-light-leak"></div>
+  </div>
+
+  <!-- PERSISTENT TOP HUD (Floating Sound & Experience Controls) -->
+  <header class="hud-bar">
+    <div class="hud-brand">
+      <span class="hud-crest">✦</span>
+      <span class="hud-label">Diwali 2026</span>
+    </div>
+
+    <div class="hud-controls">
+      <!-- Ambient Audio Toggle -->
+      <button id="sound-toggle" class="hud-btn sound-btn" aria-label="Toggle Sound" title="Sound Control">
+        <span class="sound-wave" aria-hidden="true">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+          <span class="bar bar-4"></span>
+        </span>
+        <span class="sound-text" id="sound-label">Sound On</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- STEP 2: THE CINEMATIC OPENING (Curtain & Experience Portal) -->
+  <section id="intro-curtain" class="intro-curtain" role="dialog" aria-modal="true" aria-label="Welcome Entrance">
+    <div class="intro-backdrop"></div>
+    <div class="intro-glow"></div>
+
+    <div class="intro-card">
+      <div class="intro-emblem">
+        <svg class="mandala-ring" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="46" stroke="url(#gold-radial-emblem)" stroke-width="1.2" stroke-dasharray="3 3"/>
+          <circle cx="50" cy="50" r="38" stroke="url(#gold-radial-emblem)" stroke-width="0.8"/>
+          <path d="M50 15 L52 28 L65 30 L54 38 L57 51 L47 43 L37 50 L41 38 L31 30 L44 28 Z" fill="url(#gold-radial-emblem)" opacity="0.6"/>
+          <defs>
+            <radialGradient id="gold-radial-emblem" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#FAF0D7"/>
+              <stop offset="50%" stop-color="#D4AF37"/>
+              <stop offset="100%" stop-color="#8C6615"/>
+            </radialGradient>
+          </defs>
+        </svg>
+        <div class="diya-flame-icon">
+          <span class="flame-core"></span>
+          <span class="flame-glow"></span>
+        </div>
+      </div>
+
+      <p class="intro-kicker">Diwali Celebration 2026</p>
+      <h1 class="intro-title">Festival of Lights<br><span class="intro-name">A Cinematic Celebration</span></h1>
+      <p class="intro-subtitle">Step into a vibrant celebration of festive fireworks, positive energy, and warm greetings.</p>
+
+      <!-- Friendly Disclaimer Note -->
+      <div class="intro-disclaimer">
+        <span class="disclaimer-icon">✦</span>
+        <p class="disclaimer-text">
+          <strong>Friendly Note:</strong> This greeting has been created purely for celebration, friendship, and festive fun. Please do not interpret it in any other way! Wishing you a joyous festive season.
+        </p>
+      </div>
+
+      <button id="enter-btn" class="enter-btn" aria-label="Enter Diwali Celebration">
+        <span class="btn-shine"></span>
+        <span class="btn-text">
+          <span class="btn-sparkle">✦</span>
+          <span>Experience The Celebration</span>
+          <span class="btn-sparkle">✦</span>
+        </span>
+      </button>
+
+      <div class="sound-tip">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+        </svg>
+        <span>Sound enabled • Live fireworks audio</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN SCROLL EXPERIENCE -->
+  <main class="cinematic-content" id="main-content">
+
+    <!-- STEP 4: HERO SECTION (Main Headline & Grand Name Reveal) -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container">
+        
+        <!-- Sacred Top Accent -->
+        <div class="sacred-crest" data-reveal="fade">
+          <span class="crest-line"></span>
+          <span class="crest-gem">✦</span>
+          <span class="crest-line"></span>
+        </div>
+
+        <!-- Exact Headline Requirement -->
+        <div class="headline-wrap" data-reveal="scale">
+          <h2 class="pre-title">WISH YOU A</h2>
+          <h1 class="main-diwali-title">HAPPY DIWALI</h1>
+          <div class="gold-filigree-divider">
+            <svg width="180" height="20" viewBox="0 0 180 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 10 H70 M110 10 H180" stroke="url(#gold-line-grad)" stroke-width="1"/>
+              <circle cx="90" cy="10" r="4" fill="url(#gold-line-grad)"/>
+              <path d="M82 10 L90 2 L98 10 L90 18 Z" fill="url(#gold-line-grad)" opacity="0.7"/>
+              <defs>
+                <linearGradient id="gold-line-grad" x1="0" y1="0" x2="180" y2="0" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#5E4515" stop-opacity="0"/>
+                  <stop offset="0.5" stop-color="#D4AF37"/>
+                  <stop offset="1" stop-color="#5E4515" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h2 class="name-centerpiece" id="nandita-name">NANDITA JAYSWAL</h2>
+        </div>
+
+        <p class="hero-tagline" data-reveal="fade-up">
+          May the golden brilliance of this festival illuminate your life with warmth, elegance, and limitless blessings.
+        </p>
+
+        <!-- Scroll Invitation -->
+        <a href="#letter" class="scroll-cue" aria-label="Scroll to read your personalized wish">
+          <span class="scroll-text">Explore Your Wish</span>
+          <span class="scroll-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M7 10l5 5 5-5"/>
+            </svg>
+          </span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- STEP 5: PERSONALIZED WISH (Original, Heartfelt Letter) -->
+    <section class="letter-section" id="letter">
+      <div class="section-container">
+        <div class="letter-card" data-reveal="card">
+          
+          <!-- Card Corner Ornaments -->
+          <span class="corner-ornament top-left"></span>
+          <span class="corner-ornament top-right"></span>
+          <span class="corner-ornament bottom-left"></span>
+          <span class="corner-ornament bottom-right"></span>
+
+          <!-- Header Diya Motif -->
+          <div class="letter-diya">
+            <div class="diya-glow"></div>
+            <svg class="diya-svg" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Flame -->
+              <path class="flame-path" d="M32 6 C32 6 22 22 22 30 C22 35.5 26.5 40 32 40 C37.5 40 42 35.5 42 30 C42 22 32 6 32 6 Z" fill="url(#flame-grad)"/>
+              <path class="flame-inner" d="M32 18 C32 18 27 26 27 31 C27 33.8 29.2 36 32 36 C34.8 36 37 33.8 37 31 C37 26 32 18 32 18 Z" fill="#FFF4D0"/>
+              <!-- Base Bowl -->
+              <path d="M12 36 C14 48 22 56 32 56 C42 56 50 48 52 36 C42 42 22 42 12 36 Z" fill="url(#bowl-grad)"/>
+              <path d="M8 36 C16 41 48 41 56 36 C56 37 54 41 48 44 C38 48 26 48 16 44 C10 41 8 37 8 36 Z" fill="url(#rim-grad)"/>
+              <defs>
+                <linearGradient id="flame-grad" x1="32" y1="6" x2="32" y2="40" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FFF2A3"/>
+                  <stop offset="0.4" stop-color="#FF9E1B"/>
+                  <stop offset="1" stop-color="#E53935"/>
+                </linearGradient>
+                <linearGradient id="bowl-grad" x1="12" y1="36" x2="52" y2="56" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#DFBA73"/>
+                  <stop offset="0.5" stop-color="#AA771C"/>
+                  <stop offset="1" stop-color="#583A09"/>
+                </linearGradient>
+                <linearGradient id="rim-grad" x1="8" y1="36" x2="56" y2="44" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FAF0D7"/>
+                  <stop offset="0.5" stop-color="#D4AF37"/>
+                  <stop offset="1" stop-color="#8C6615"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+
+          <div class="letter-salutation">Nandita,</div>
+
+          <!-- The Heartfelt Personalized Message (Friendship & Festive Warmth) -->
+          <div class="letter-body">
+            <p>
+              As the golden lights of Diwali brighten the skies, I wanted to send you my warmest festive wishes and celebrate the wonderful friendship we share. Having a good friend like you brings so much positive energy, genuine laughter, and great memories.
+            </p>
+            <p>
+              May this Diwali illuminate your path with immense happiness, radiant health, peace of mind, and continuous success in everything you pursue. May the coming year open up exciting new opportunities, rewarding journeys, and every goal you work toward.
+            </p>
+            <p>
+              Through every milestone and new chapter, may you always be surrounded by uplifting moments, good company, and great achievements.
+            </p>
+            <p class="letter-closing-line">
+              Here is to lasting friendship, memorable celebrations, and a truly fantastic year ahead. Wishing you a very Happy Diwali 2026!
+            </p>
+          </div>
+
+          <div class="letter-signoff">
+            <span class="signoff-sub">Warmest Wishes & Best Regards,</span>
+            <span class="signoff-main">Deepawali 2026</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 6A: THE FOUR PILLARS OF LIGHT (Festive Blessings) -->
+    <section class="pillars-section" id="blessings">
+      <div class="section-container">
+        
+        <div class="section-header" data-reveal="fade">
+          <p class="section-kicker">Enduring Blessings</p>
+          <h2 class="section-title">Illuminations for Nandita</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="pillars-grid">
+          
+          <!-- Pillar 1 -->
+          <div class="pillar-card" data-reveal="fade-up" style="--card-delay: 0.1s;">
+            <div class="pillar-glow"></div>
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Prakash</h3>
+            <p class="pillar-subtitle">Guiding Radiance</p>
+            <p class="pillar-desc">
+              May crystal clarity guide your path, revealing wisdom in every decision and unlocking doors to meaningful horizons.
+            </p>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="pillar-card" data-reveal="fade-up" style="--card-delay: 0.2s;">
+            <div class="pillar-glow"></div>
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Samriddhi</h3>
+            <p class="pillar-subtitle">Boundless Prosperity</p>
+            <p class="pillar-desc">
+              May every creative vision and bold venture you undertake flourish with lasting abundance, honor, and celebrated success.
+            </p>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="pillar-card" data-reveal="fade-up" style="--card-delay: 0.3s;">
+            <div class="pillar-glow"></div>
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Shanti</h3>
+            <p class="pillar-subtitle">Serenity & Poise</p>
+            <p class="pillar-desc">
+              May serene tranquility anchor your soul, keeping you centered in grace, peace of mind, and inner stillness amidst all seasons.
+            </p>
+          </div>
+
+          <!-- Pillar 4 -->
+          <div class="pillar-card" data-reveal="fade-up" style="--card-delay: 0.4s;">
+            <div class="pillar-glow"></div>
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Anandam</h3>
+            <p class="pillar-subtitle">Infinite Joy</p>
+            <p class="pillar-desc">
+              May your everyday life be enriched with effortless laughter, unforgettable celebrations, and cherished memories with loved ones.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- STEP 6B: INTERACTIVE DIYA CEREMONY (Touch To Light) -->
+    <section class="ritual-section" id="ceremony">
+      <div class="section-container">
+        
+        <div class="ritual-card" data-reveal="scale">
+          <p class="ritual-kicker">Sacred Diwali Ritual</p>
+          <h2 class="ritual-title">Light A Diya for Nandita</h2>
+          <p class="ritual-instructions" id="ritual-hint">
+            Tap the sacred diya to ignite a personal flame of blessings and prosperity.
+          </p>
+
+          <div class="interactive-diya-wrap">
+            <button id="interactive-diya-btn" class="interactive-diya-btn" aria-label="Tap to light the diya">
+              <div class="diya-aura" id="diya-aura"></div>
+              
+              <svg class="diya-ritual-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Golden Aura Halo -->
+                <circle cx="60" cy="55" r="45" stroke="url(#ritual-gold-ring)" stroke-width="1" stroke-dasharray="4 4" class="halo-ring"/>
+                
+                <!-- Interactive Flame Group -->
+                <g id="ritual-flame-group" class="flame-dormant">
+                  <!-- Outer Warm Bloom -->
+                  <circle cx="60" cy="38" r="28" fill="url(#flame-bloom)" opacity="0.6" class="ritual-bloom"/>
+                  <!-- Core Flame -->
+                  <path class="flame-body" d="M60 14 C60 14 46 36 46 48 C46 56 52 62 60 62 C68 62 74 56 74 48 C74 36 60 14 60 14 Z" fill="url(#ritual-flame-grad)"/>
+                  <path class="flame-heart" d="M60 30 C60 30 52 42 52 49 C52 53.5 55.5 57 60 57 C64.5 57 68 53.5 68 49 C68 42 60 30 60 30 Z" fill="#FFFBE6"/>
+                </g>
+
+                <!-- Diya Clay / Brass Vessel -->
+                <path d="M26 62 C30 84 45 96 60 96 C75 96 90 84 94 62 C78 70 42 70 26 62 Z" fill="url(#ritual-brass-bowl)"/>
+                <path d="M20 62 C32 68 88 68 100 62 C100 64 96 70 88 74 C72 80 48 80 32 74 C24 70 20 64 20 62 Z" fill="url(#ritual-brass-rim)"/>
+                
+                <!-- Base pedestal -->
+                <ellipse cx="60" cy="98" rx="24" ry="4" fill="url(#ritual-pedestal)"/>
+
+                <defs>
+                  <radialGradient id="flame-bloom" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#FFB300" stop-opacity="0.9"/>
+                    <stop offset="50%" stop-color="#FF6F00" stop-opacity="0.4"/>
+                    <stop offset="100%" stop-color="#FF3D00" stop-opacity="0"/>
+                  </radialGradient>
+                  <linearGradient id="ritual-flame-grad" x1="60" y1="14" x2="60" y2="62" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FFFAD1"/>
+                    <stop offset="0.3" stop-color="#FFB300"/>
+                    <stop offset="0.7" stop-color="#FF5722"/>
+                    <stop offset="1" stop-color="#D50000"/>
+                  </linearGradient>
+                  <linearGradient id="ritual-brass-bowl" x1="26" y1="62" x2="94" y2="96" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#F3E5AB"/>
+                    <stop offset="0.4" stop-color="#D4AF37"/>
+                    <stop offset="0.8" stop-color="#8C6615"/>
+                    <stop offset="1" stop-color="#462C04"/>
+                  </linearGradient>
+                  <linearGradient id="ritual-brass-rim" x1="20" y1="62" x2="100" y2="74" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FFF2A3"/>
+                    <stop offset="0.5" stop-color="#DFBA73"/>
+                    <stop offset="1" stop-color="#996515"/>
+                  </linearGradient>
+                  <linearGradient id="ritual-pedestal" x1="36" y1="98" x2="84" y2="98" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#8C6615" stop-opacity="0.8"/>
+                    <stop offset="0.5" stop-color="#D4AF37"/>
+                    <stop offset="1" stop-color="#8C6615" stop-opacity="0.8"/>
+                  </linearGradient>
+                  <radialGradient id="ritual-gold-ring" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#FAF0D7"/>
+                    <stop offset="100%" stop-color="#AA771C"/>
+                  </radialGradient>
+                </defs>
+              </svg>
+            </button>
+          </div>
+
+          <div class="ritual-status" id="ritual-status">
+            <span class="status-sparkle">✦</span>
+            <span class="status-text">Your Diya glows bright with everlasting warmth.</span>
+            <span class="status-sparkle">✦</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- STEP 6C: CLOSING DEDICATION & SIGNATURE -->
+    <section class="closing-section" id="closing">
+      <div class="section-container">
+        
+        <div class="closing-card" data-reveal="fade-up">
+          <div class="closing-emblem">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="url(#closing-gold)" stroke-width="1.2">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              <defs>
+                <linearGradient id="closing-gold" x1="0" y1="0" x2="24" y2="24">
+                  <stop stop-color="#FAF0D7"/>
+                  <stop offset="0.5" stop-color="#D4AF37"/>
+                  <stop offset="1" stop-color="#8C6615"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+
+          <p class="closing-quote">
+            “May the radiance of this holy festival linger in your life long after the embers fade, turning every ordinary day into an extraordinary celebration.”
+          </p>
+
+          <div class="signature-block">
+            <p class="signature-intro">Dedicated in the spirit of friendship & festive joy to</p>
+            <h3 class="signature-name">Nandita Jayswal</h3>
+            <p class="signature-tag">✦ With Warmest Wishes & Best Regards • Deepawali 2026 ✦</p>
+          </div>
+
+          <div class="closing-actions">
+            <button id="replay-btn" class="action-btn replay-btn" aria-label="Replay Experience">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="1 4 1 10 7 10"></polyline>
+                <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+              </svg>
+              <span>Relive Experience</span>
+            </button>
+            <button id="share-btn" class="action-btn share-btn" aria-label="Share Private Link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="18" cy="5" r="3"></circle>
+                <circle cx="6" cy="12" r="3"></circle>
+                <circle cx="18" cy="19" r="3"></circle>
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+              </svg>
+              <span>Share Link</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="cinematic-footer">
+      <div class="footer-inner">
+        <p class="footer-note">A Private Cinematic Deepawali Celebration</p>
+        <p class="footer-copy">Crafted Exclusively for Nandita Jayswal</p>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Notification Toast for Copy Link / Diya Lighting -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Audio Element (for fallback or custom audio tracks) -->
+  <audio id="ambient-audio" preload="none" loop>
+    <source src="assets/festive-music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
